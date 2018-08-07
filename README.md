@@ -1,4 +1,7 @@
 # heroku-quickstart-deploy
+
+Author: [Lim Chooi Guan](https://www.linkedin.com/in/cgl88/) (Team Cloud Lead @ Scania AB, Senior Software Engineer)
+
 Sample repo with quick start instructions on deploying a Dockerised app into Heroku.
 Install the [CLI](https://devcenter.heroku.com/articles/heroku-cli) first.
 
