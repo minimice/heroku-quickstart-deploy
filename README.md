@@ -9,6 +9,7 @@ heroku config:set "TARGET=Cool Guy" "NAME=Amazing Person" --app cg-hello
 heroku container:push web --app cg-hello --arg http_proxy=http://PROXY.IF.NEEDED.COM:8080,https_proxy=http://PROXY.IF.NEEDED.COM:8080
 heroku container:release web --app cg-hello
 heroku open --app cg-hello
+heroku logs -t --app cg-hello
 ```
 
 App is now visible at https://cg-hello.herokuapp.com/  
