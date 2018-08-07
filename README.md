@@ -18,5 +18,7 @@ https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 ## Other useful links
 heroku plugins:install @heroku-cli/plugin-container-registry  
+heroku login  
+heroku container:login
 https://github.com/heroku/heroku-container-registry  
 https://medium.com/travis-on-docker/how-to-run-dockerized-apps-on-heroku-and-its-pretty-great-76e07e610e22
