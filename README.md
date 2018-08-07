@@ -1,5 +1,6 @@
 # heroku-quickstart-deploy
-Sample repo with quick start instructions on deploying a Dockerised app into Heroku
+Sample repo with quick start instructions on deploying a Dockerised app into Heroku.
+Install the [CLI](https://devcenter.heroku.com/articles/heroku-cli) first.
 
 ```
 heroku create cg-hello
@@ -9,6 +10,9 @@ heroku open --app cg-hello
 ```
 
 App is now visible at https://cg-hello.herokuapp.com/  
+
+## Heroku container registry and runtime for Docker deploys  
+https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 ## Other useful links
 heroku plugins:install @heroku-cli/plugin-container-registry  
