@@ -11,8 +11,9 @@ const NAME = process.env.NAME || 'Superman';
 // App
 const app = express();
 app.get('/', (req, res) => {
+  console.log(`Saying hello!`);
   res.send('Hello ' + TARGET + ' this is ' + NAME + '\n');
 });
 
 app.listen(PORT, HOST);
-process.stdout.write(`Heroku app running on http://${HOST}:${PORT}`);
+console.log(`Heroku app running on http://${HOST}:${PORT}`);
