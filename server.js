@@ -6,11 +6,12 @@ const express = require('express');
 const PORT = process.env.PORT || 8080;
 const HOST = '0.0.0.0';
 const TARGET = process.env.TARGET || 'World';
+const NAME = process.env.NAME || 'Superman';
 
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello ' + TARGET + ' this is Superman\n');
+  res.send('Hello ' + TARGET + ' this is ' + NAME + '\n');
 });
 
 app.listen(PORT, HOST);
