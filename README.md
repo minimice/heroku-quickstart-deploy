@@ -3,7 +3,7 @@ Sample repo with quick start instructions on deploying a Dockerised app into Her
 
 ```
 heroku create cg-hello
-heroku container:push web --app cg-hello --arg http_proxy=http://proxyseso.scania.com:8080,https_proxy=http://proxyseso.scania.com:8080
+heroku container:push web --app cg-hello --arg http_proxy=http://PROXY.IF.NEEDED.COM:8080,https_proxy=http://PROXY.IF.NEEDED.COM:8080
 heroku container:release web --app cg-hello
 heroku open --app cg-hello
 ```
