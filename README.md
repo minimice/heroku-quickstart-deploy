@@ -1,9 +1,11 @@
 # heroku-quickstart-deploy
 Sample repo with quick start instructions on deploying a Dockerised app into Heroku.
 Install the [CLI](https://devcenter.heroku.com/articles/heroku-cli) first.
+TARGET below is an environment variable referenced in server.js
 
 ```
 heroku create cg-hello
+heroku config:set "TARGET=Cool Guy" --app cg-hello
 heroku container:push web --app cg-hello --arg http_proxy=http://PROXY.IF.NEEDED.COM:8080,https_proxy=http://PROXY.IF.NEEDED.COM:8080
 heroku container:release web --app cg-hello
 heroku open --app cg-hello
